@@ -9,7 +9,7 @@ const ApplicationNavigation = () => {
         <BrowserRouter>
             <Routes>
                 { /** Route Primaire de l'application*/}
-                <Route path="/gttech.cm/home" element={ <ApplicationHomepageView /> } />
+                <Route path="/gttech.cm" element={ <ApplicationHomepageView /> } />
 
                 {/** Routes Particulières */}
                 <Route path="/gttech.cm/services" />
@@ -18,7 +18,7 @@ const ApplicationNavigation = () => {
                 <Route path="/gttech.cm/contact" />
 
                 { /** Routes de gestion d'erreurs */}
-                <Route path={`/gttech.cm/`} element={ <ApplicationErrorView /> } />
+                <Route path="*" element={ <ApplicationErrorView /> } />
             </Routes>
         </BrowserRouter>
     );
