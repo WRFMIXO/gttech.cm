@@ -4,7 +4,25 @@
     background: linear-gradient(to top, salmon, crimson);
     padding: 2rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    transition: ease-in 355ms;
+    transition: opacity 0.5s ease; /* Ajout d'une transition de fondu */
+    position: relative; /* Assurez-vous que .blackVoile est positionné par rapport à .herosection */
+    z-index: 1;
+}
+
+.blackVoile {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%; /* Ajustez la largeur pour couvrir toute la section */
+  height: 100%; /* Ajustez la hauteur pour couvrir toute la section */
+  top: 0;
+  left: 0;
+  opacity: 0; /* Définissez l'opacité à 0 par défaut */
+  transition: opacity 0.5s ease; /* Ajout d'une transition de fondu */
+}
+
+.herosection:hover .blackVoile {
+  opacity: 1; /* Augmentez l'opacité lorsqu'on survole la section */
+  z-index: -1;
 }
 
 .sectiontitle{

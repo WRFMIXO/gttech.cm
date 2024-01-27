@@ -42,6 +42,7 @@ const ApplicationHeroSectionComponent = () => {
               </Button>
             </a>
           </div>
+          <div className="blackVoile"></div>
         </Container>
       </div>
     </Parallax>
