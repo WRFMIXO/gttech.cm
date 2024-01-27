@@ -1,8 +1,10 @@
 .herosection{
     width: 100%;
+    height: auto;
     background: linear-gradient(to top, salmon, crimson);
     padding: 2rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: ease-in 355ms;
 }
 
 .sectiontitle{
@@ -30,4 +32,32 @@
     margin: 10px;
     padding-inline: 3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width: 1366px) {
+    .herosection{
+        width: 100%;
+        background: linear-gradient(to top, salmon, crimson);
+        padding: 2rem;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-bottom-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+        transition: ease-in 355ms;
+    }
+
+    .sectiontitle{
+        color: white;
+        text-align: justify center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        width: auto;
+    }
+
+    .description{
+        color: white;
+        font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
 }

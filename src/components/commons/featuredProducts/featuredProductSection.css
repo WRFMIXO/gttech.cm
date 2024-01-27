@@ -1,5 +1,18 @@
-.featuredProductSection{
+.featuredProductTitleContainer{
     width: 100%;
-    padding: 2rem;
-    height: auto;
+    height: 100%; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 24; 
+    display: inline-flex;
+}
+
+.featuredProductTitle{
+    align-self: stretch; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Roboto; 
+    font-weight: 700;
+    word-wrap: break-word;
 }
