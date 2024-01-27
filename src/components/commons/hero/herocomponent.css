@@ -1,0 +1,33 @@
+.herosection{
+    width: 100%;
+    background: linear-gradient(to top, salmon, crimson);
+    padding: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sectiontitle{
+    color: white;
+    text-align: justify center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    width: auto;
+}
+
+.description{
+    color: white;
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.action_buttons{
+    margin-top: 2rem;
+}
+
+.action_buttons #actionButton{
+    padding: 10px;
+    margin: 10px;
+    padding-inline: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import WebsiteNavigation from "../components/commons/navbar/AppNavbar";
+import ApplicationHeroSectionComponent from "../components/commons/hero/HeroComponent";
 
 const ApplicationHomepageView = () => {
 
@@ -7,6 +8,8 @@ const ApplicationHomepageView = () => {
         <div className="content">
 
             <WebsiteNavigation />
+
+            <ApplicationHeroSectionComponent />
 
         </div>
     );
