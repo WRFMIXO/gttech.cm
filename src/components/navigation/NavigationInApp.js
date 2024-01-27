@@ -9,7 +9,7 @@ const ApplicationNavigation = () => {
         <BrowserRouter>
             <Routes>
                 { /** Route Primaire de l'application*/}
-                <Route path="/gttech.cm" element={ <ApplicationHomepageView /> } />
+                <Route path="/gttech.cm/" element={ <ApplicationHomepageView /> } />
 
                 {/** Routes Particulières */}
                 <Route path="/gttech.cm/services" />
