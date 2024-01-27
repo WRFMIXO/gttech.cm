@@ -25,7 +25,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://wrfmixo.github.io/gttech.cm/home",
+  "homepage": "https://wrfmixo.github.io/gttech.cm",
   "eslintConfig": {
     "extends": [
       "react-app",
