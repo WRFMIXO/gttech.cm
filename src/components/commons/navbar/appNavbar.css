@@ -1,0 +1,22 @@
+.appnavbar{
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    top: 0;
+}
+
+#collapseContent .navigationLink{
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    transition: ease-in-out 200ms;
+    color: dimgray;
+    margin: 0.5rem;
+}
+
+#collapseContent .navigationLink:hover{
+    text-decoration: underline;
+    transform-origin: left;
+    transition: all ease-in 250ms;
+}
