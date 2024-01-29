@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/gttech.cm/static/css/main.bd876e30.css",
-    "main.js": "/gttech.cm/static/js/main.b1be7886.js",
+    "main.css": "/gttech.cm/static/css/main.1f387f9b.css",
+    "main.js": "/gttech.cm/static/js/main.8931e2fd.js",
     "static/media/logo.svg": "/gttech.cm/static/media/logo.298dfdc157d26a0ca6303eacfaf3a1bd.svg",
     "index.html": "/gttech.cm/index.html",
-    "main.bd876e30.css.map": "/gttech.cm/static/css/main.bd876e30.css.map",
-    "main.b1be7886.js.map": "/gttech.cm/static/js/main.b1be7886.js.map"
+    "main.1f387f9b.css.map": "/gttech.cm/static/css/main.1f387f9b.css.map",
+    "main.8931e2fd.js.map": "/gttech.cm/static/js/main.8931e2fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd876e30.css",
-    "static/js/main.b1be7886.js"
+    "static/css/main.1f387f9b.css",
+    "static/js/main.8931e2fd.js"
   ]
 }
