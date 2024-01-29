@@ -29,7 +29,7 @@ const ApplicationNavigation = () => {
                 <Route path="/gttech.cm/contact" />
 
                 { /** Routes de gestion d'erreurs */}
-                <Route path="*" element={ <ApplicationErrorView /> } />
+                <Route path="/gttech.cm/*" element={ <ApplicationErrorView /> } />
             </Routes>
             )}
         </BrowserRouter>
