@@ -11,7 +11,7 @@
 
 .blackVoile {
   position: absolute;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.3);
   width: 100%; /* Ajustez la largeur pour couvrir toute la section */
   height: 100%; /* Ajustez la hauteur pour couvrir toute la section */
   top: 0;
